@@ -50,7 +50,7 @@ public class HelloWorldResourceTest {
     @Test
     public void testPutXml() throws Exception {
         System.out.println("putXml");
-        String expResult = "<html><body><h1>Hello Test Value!</h1></body></html>";
+        String expResult = "<html><body><h1>Hello There Test Value!</h1></body></html>";
         helloWorldResource.putXml("Test Value");
         String result = helloWorldResource.getXml();
         assertEquals(expResult, result);
