@@ -68,6 +68,7 @@ public class HelloWorldResource {
      * Retrieves representation of an instance of helloworld.HelloWorldResource
      *
      * @return an instance of java.lang.String
+	 Updated
      */
     @GET
     @Produces("text/html")
