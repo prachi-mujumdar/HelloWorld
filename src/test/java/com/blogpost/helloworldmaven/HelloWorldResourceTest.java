@@ -45,7 +45,7 @@ public class HelloWorldResourceTest {
     }
 
     /**
-     * Test of putXml method, of class HelloWorldResource.Update 1
+     * Test of putXml method, of class HelloWorldResource.Update 2
      */
     @Test
     public void testPutXml() throws Exception {
